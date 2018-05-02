@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dfc.sitefinity.microservice.api:
+    image: dfcsitefinitymicroserviceapi
+    build:
+      context: .
+      dockerfile: DFC.Sitefinity.MicroService.API\Dockerfile

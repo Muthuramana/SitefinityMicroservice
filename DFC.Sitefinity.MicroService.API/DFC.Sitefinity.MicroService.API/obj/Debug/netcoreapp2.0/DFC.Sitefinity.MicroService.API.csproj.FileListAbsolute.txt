@@ -1,0 +1,11 @@
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\bin\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.deps.json
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\bin\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.runtimeconfig.json
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\bin\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.runtimeconfig.dev.json
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\bin\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.dll
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\bin\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.pdb
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.csprojResolveAssemblyReference.cache
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.csproj.CoreCompileInputs.cache
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.AssemblyInfoInputs.cache
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.AssemblyInfo.cs
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.dll
+C:\PersonalRepos\SitefinityMicroservice\DFC.Sitefinity.MicroService.API\DFC.Sitefinity.MicroService.API\obj\Debug\netcoreapp2.0\DFC.Sitefinity.MicroService.API.pdb
