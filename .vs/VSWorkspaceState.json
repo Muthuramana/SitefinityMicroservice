@@ -10,6 +10,6 @@
     "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Repositories",
     "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Services"
   ],
-  "SelectedNode": "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Startup.cs",
+  "SelectedNode": "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Repositories\\Repository.cs",
   "PreviewInSolutionExplorer": false
 }
