@@ -1,8 +1,20 @@
 version: '3'
 
 services:
-  dfc.sitefinity.microservice.api:
+   mongodb:
+        image: mongo:windowsservercore
+        container_name: "mongoDbContainer"
+        environment:
+          - MONGO_DATA_DIR=/data/db
+          - MONGO_LOG_DIR=/dev/null
+        ports:
+            - 27017:27017
+
+   dfc.sitefinity.microservice.api:
     image: dfcsitefinitymicroserviceapi
     build:
       context: .
       dockerfile: DFC.Sitefinity.MicroService.API\Dockerfile
+    depends_on:
+            - mongodb
+

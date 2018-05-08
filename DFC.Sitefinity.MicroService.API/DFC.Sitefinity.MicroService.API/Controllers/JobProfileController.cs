@@ -26,7 +26,7 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
         {
             var result = new ConcurrentDictionary<string, string> ();
 
-            var jobProfile = await jobProfileService.GetJobProfileByUrlNameAsync(urlName);
+            var jobProfile = await repository.GetJobProfileByUrlNameAsync(urlName);
            
             if (jobProfile != null)
             {

@@ -5,8 +5,8 @@ namespace DFC.Sitefinity.MicroService.API.Models
 {
     public class JobProfile
     {
-        [BsonId]
         public Guid Id { get; set; }
+        [BsonId]
         public string UrlName { get; set; }
 
         public string Title { get; set; }
