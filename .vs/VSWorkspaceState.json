@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DFC.Sitefinity.MicroService.API",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Controllers",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Interfaces",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Models",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\obj",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Repositories",
+    "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Services"
   ],
+  "SelectedNode": "\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

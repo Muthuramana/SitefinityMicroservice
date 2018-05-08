@@ -12,11 +12,13 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
     public class JobProfileController : Controller
     {
 
-        private readonly IJobProfileRepository jobProfileRepository;
+        private readonly IJobProfileService jobProfileService;
+        private readonly IRepository repository;
 
-        public JobProfileController(IJobProfileRepository jobProfileRepository)
+        public JobProfileController(IJobProfileService jobProfileService, IRepository repository)
         {
-            this.jobProfileRepository = jobProfileRepository;
+            this.jobProfileService = jobProfileService;
+            this.repository = repository;
         }
       // GET api/jobprofile/plumber
       [HttpGet("{urlname}")]
@@ -24,7 +26,7 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
         {
             var result = new ConcurrentDictionary<string, string> ();
 
-            var jobProfile = await jobProfileRepository.GetJobProfileByUrlName(urlName);
+            var jobProfile = await repository.GetJobProfileByUrlNameAsync(urlName);
            
             if (jobProfile != null)
             {
@@ -41,6 +43,19 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
             }
 
             return result;
+        }
+
+        [HttpGet("updatejobprofilerepo")]
+        public async Task<bool> GetUpdateJobProfileRepo()
+        {
+            var jobProfiles = await jobProfileService.GetJobProfilesAsync();
+
+            foreach (var jobProfile in jobProfiles)
+            {
+                await repository.SaveJobProfileAsync(jobProfile);
+            }
+
+            return true;
         }
     }
 }

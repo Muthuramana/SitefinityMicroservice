@@ -1,7 +1,12 @@
-﻿namespace DFC.Sitefinity.MicroService.API.Models
+﻿using System;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace DFC.Sitefinity.MicroService.API.Models
 {
     public class JobProfile
     {
+        [BsonId]
+        public Guid Id { get; set; }
         public string UrlName { get; set; }
 
         public string Title { get; set; }

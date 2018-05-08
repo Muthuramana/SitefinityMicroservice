@@ -1,4 +1,5 @@
 ﻿using DFC.Sitefinity.MicroService.API.Interfaces;
+using DFC.Sitefinity.MicroService.API.Repositories;
 using DFC.Sitefinity.MicroService.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,7 +21,8 @@ namespace DFC.Sitefinity.MicroService.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddScoped<IJobProfileRepository, JobProfileRepository>();
+            services.AddScoped<IJobProfileService, JobProfileService>();
+            services.AddScoped<IRepository, Repository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
