@@ -2,7 +2,7 @@ version: '3'
 
 services:
    mongodb:
-        image: mongo:windowsservercore
+        image: mongo
         container_name: "mongoDbContainer"
         environment:
           - MONGO_DATA_DIR=/data/db
