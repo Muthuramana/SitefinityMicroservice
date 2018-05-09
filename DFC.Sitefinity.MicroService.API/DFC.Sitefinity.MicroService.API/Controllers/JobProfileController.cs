@@ -62,7 +62,11 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
         [HttpPost("updatejobprofile")]
         public async Task<bool> PostJobProfile([FromBody]JobProfile jobProfile)
         {
-            await repository.UpdateJobProfileAsync(jobProfile);
+            if (jobProfile != null)
+            {
+                await repository.UpdateJobProfileAsync(jobProfile);
+            }
+           
             return true;
         }
     }
