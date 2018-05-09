@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DFC.Sitefinity.MicroService.API.Interfaces;
+using DFC.Sitefinity.MicroService.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DFC.Sitefinity.MicroService.API.Controllers
@@ -55,6 +56,13 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
                 await repository.SaveJobProfileAsync(jobProfile);
             }
 
+            return true;
+        }
+
+        [HttpPost("updatejobprofile")]
+        public async Task<bool> PostJobProfile([FromBody]JobProfile jobProfile)
+        {
+            await repository.UpdateJobProfileAsync(jobProfile);
             return true;
         }
     }

@@ -9,6 +9,8 @@ namespace DFC.Sitefinity.MicroService.API.Interfaces
 
         Task SaveJobProfileAsync(JobProfile jobProfile);
 
+        Task UpdateJobProfileAsync(JobProfile jobProfile);
+
 
     }
 }
