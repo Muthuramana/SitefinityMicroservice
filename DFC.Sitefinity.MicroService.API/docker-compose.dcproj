@@ -5,7 +5,7 @@
     <DockerTargetOS>Windows</DockerTargetOS>
     <ProjectGuid>4d8bcadf-cccb-459e-892b-72a9668c9047</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>http://{ServiceIPAddress}/api/values</DockerServiceUrl>
+    <DockerServiceUrl>http://{ServiceIPAddress}/api/jobprofile/updatejobprofilerepo</DockerServiceUrl>
     <DockerServiceName>dfc.sitefinity.microservice.api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
