@@ -14,7 +14,7 @@ services:
     image: dfcsitefinitymicroserviceapi
     build:
       context: .
-      dockerfile: DFC.Sitefinity.MicroService.API\Dockerfile
+      dockerfile: DFC.Sitefinity.MicroService.API/Dockerfile
     depends_on:
             - mongodb
 
