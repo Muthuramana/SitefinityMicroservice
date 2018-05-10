@@ -12,6 +12,8 @@ services:
 
    dfc.sitefinity.microservice.api:
     image: dfcsitefinitymicroserviceapi
+    ports:
+       - 8000:80
     build:
       context: .
       dockerfile: DFC.Sitefinity.MicroService.API/Dockerfile
