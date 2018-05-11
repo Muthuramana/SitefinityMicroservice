@@ -1,8 +1,8 @@
-version: '3'
+version: '3.4'
 
 services:
   dfc.sitefinity.microservice.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - 8000:80
+      - "5002:80"

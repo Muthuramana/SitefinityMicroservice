@@ -31,8 +31,8 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
            
             if (jobProfile != null)
             {
-                var properties = jobProfile.GetType().GetProperties()
-                    .Where(prop => prop.PropertyType == typeof(string));
+                var properties = jobProfile.GetType().GetProperties();
+                    //.Where(prop => prop.PropertyType == typeof(string));
                 foreach (var property in properties)
                 {
                     var item = jobProfile.GetType().GetProperty(property.Name)?.GetValue(jobProfile, null);
@@ -53,7 +53,7 @@ namespace DFC.Sitefinity.MicroService.API.Controllers
 
             foreach (var jobProfile in jobProfiles)
             {
-                await repository.SaveJobProfileAsync(jobProfile);
+                await repository.UpdateJobProfileAsync(jobProfile);
             }
 
             return true;

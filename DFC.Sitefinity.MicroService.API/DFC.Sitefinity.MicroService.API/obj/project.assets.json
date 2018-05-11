@@ -13068,23 +13068,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trevorkapswarah\\.nuget\\packages\\": {},
+    "C:\\Users\\muthu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PersonalRepos\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API.csproj",
+      "projectUniqueName": "C:\\Data\\GitHub\\mk-forks\\others\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API.csproj",
       "projectName": "DFC.Sitefinity.MicroService.API",
-      "projectPath": "C:\\PersonalRepos\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API.csproj",
-      "packagesPath": "C:\\Users\\trevorkapswarah\\.nuget\\packages\\",
-      "outputPath": "C:\\PersonalRepos\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\obj\\",
+      "projectPath": "C:\\Data\\GitHub\\mk-forks\\others\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API.csproj",
+      "packagesPath": "C:\\Users\\muthu\\.nuget\\packages\\",
+      "outputPath": "C:\\Data\\GitHub\\mk-forks\\others\\SitefinityMicroservice\\DFC.Sitefinity.MicroService.API\\DFC.Sitefinity.MicroService.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\trevorkapswarah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\muthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13092,7 +13092,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.bintray.com/nuget/gov-uk-notify/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

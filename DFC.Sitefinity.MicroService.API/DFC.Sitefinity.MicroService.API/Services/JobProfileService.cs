@@ -10,7 +10,7 @@ namespace DFC.Sitefinity.MicroService.API.Services
 {
     public class JobProfileService : IJobProfileService
     {
-        private string apiUrl = "http://dev-beta.nationalcareersservice.org.uk/api/bespoke-ui/jobprofiles";
+        private string apiUrl = "https://dev-beta.nationalcareersservice.org.uk/api/bespoke-ui/jobprofiles?$orderby=UrlName&$expand=SOC($select=SOCCode)";
         public async Task<JobProfile> GetJobProfileByUrlNameAsync(string urlName)
         {
             var jobProfile = new JobProfile();
