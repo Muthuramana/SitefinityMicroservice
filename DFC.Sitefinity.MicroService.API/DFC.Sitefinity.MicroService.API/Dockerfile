@@ -1,12 +1,12 @@
-FROM microsoft/aspnetcore:2.0 AS base
+FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/aspnetcore-build:2.0 AS build
+FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
 COPY DFC.Sitefinity.MicroService.API.sln ./
 COPY DFC.Sitefinity.MicroService.API/DFC.Sitefinity.MicroService.API.csproj DFC.Sitefinity.MicroService.API/
-RUN dotnet restore -nowarn:msb3202,nu1503
+RUN dotnet restore DFC.Sitefinity.MicroService.API/DFC.Sitefinity.MicroService.API.csproj -nowarn:msb3202,nu1503
 COPY . .
 WORKDIR /src/DFC.Sitefinity.MicroService.API
 RUN dotnet build -c Release -o /app
